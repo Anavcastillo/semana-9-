@@ -1,0 +1,153 @@
+body {
+background-color: #2A2727; 
+	font-family: arial; 
+}
+
+header {
+	background-image: url("../images/monet.jpg");
+	background-size: cover; 
+	background-position: bottom center;
+	height:10%;
+	width:100%; 
+
+}
+
+h1 {
+	margin-top: 3%;   
+font-size: 15em;
+font-family: helvetica bold; 
+color: #F3DC0A; 
+text-align: center; 
+
+}
+
+#banner { 
+background-image: url(../image/monet.jpg)
+background-size: cover;
+background-position: bottom center;
+height: 40%; 
+width: 100%; 
+}
+
+ul li{
+	display: inline-block; 
+	color: white;
+	text-align: center; 
+	list-style-type: none; 
+	margin: 7%; 
+	padding: 0%; 
+	margin: 0%;
+	padding: 0%;  
+	padding-right: 7%;  
+
+}
+
+nav { 
+margin-top: 15%;
+margin-bottom: 8%
+margin-right:20%;
+margin-left:8%;
+text-align: center; 
+
+}
+
+li a:hover {
+	background-color: #F3DC0A; 
+	 width: 40%; 
+
+}
+
+a{ 
+text-decoration: none; 
+color: white; 
+font-size: 1.25em;
+
+ }
+
+ a:hover { 
+ color:yellow; 
+ width: 30%; 
+}
+
+#p1 { 
+ float: left;
+ border: 0.5%; 
+ height: 80%; 
+ width: 80%; 
+ margin-left: 40%; 
+ margin-top: 2%; 
+ text-align: justify;
+ }
+
+
+#p2 {
+float: right;
+ border: 0.5%; 
+ height: 80%; 
+ width: 80%; 
+ margin-right: -10%; 
+ margin-top: 1%; 
+ text-align: justify;
+  }
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 2%;
+    margin: 5%; 
+}
+
+article {
+
+float: center; 
+
+}
+
+p { 
+
+font-size: 1.5625em; 
+color: white;
+font-family: times; 
+
+ }
+ 
+footer {
+	font-color: white;
+margin-left: 21%; 
+margin-top: 10%; 
+padding-right: 70%;
+padding-bottom: 7%;
+}
+
+.row {
+  display: flex;
+}
+
+.column-1, .column-2 {
+  flex: 1;
+  margin-top: 300px; 
+  border:1px yellow;
+  text-align: center;
+  font-family: times; 
+  margin: 20px;
+  padding: 20px;
+}
+
+.row div img {
+  border-radius: 80%;
+  width: 400px;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width: 200px) {
+	
+	h1 {
+		font-size: 1.6em;
+
+	}
+
+}
+
+	
